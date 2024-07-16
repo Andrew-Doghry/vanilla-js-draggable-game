@@ -71,3 +71,55 @@ body{
     }
 
 }
+@media (max-width:767px) {
+    #card {
+        width:100px;
+        height:100px;
+        background-color: #AFDA9F;
+        border-radius: 5px;
+        cursor: pointer;
+        position: fixed;
+        z-index: 2;
+        
+    }
+    #winning-card {
+        width:100px;
+        height:100px;
+        background-color: #afda9f59;
+        border:white dotted 2px;
+        border-radius: 5px;
+        cursor: pointer;
+        position: fixed;
+        bottom: 50px;
+        right: 100px;
+        z-index: 0;
+    }
+    
+    
+}
+@media (max-width:969px) {
+    #card {
+        width:100px;
+        height:100px;
+        background-color: #AFDA9F;
+        border-radius: 5px;
+        cursor: pointer;
+        position: fixed;
+        z-index: 2;
+        
+    }
+    #winning-card {
+        width:100px;
+        height:100px;
+        background-color: #afda9f59;
+        border:white dotted 2px;
+        border-radius: 5px;
+        cursor: pointer;
+        position: fixed;
+        bottom: 50px;
+        right: 100px;
+        z-index: 0;
+    }
+    
+    
+}
