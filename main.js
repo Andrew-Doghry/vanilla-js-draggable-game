@@ -75,7 +75,7 @@ function touchmove(e){
 card.style.top= (card.offsetTop - newY)+"px"
 card.style.left= (card.offsetLeft - newX)+"px"
 
-    if((card.offsetTop >= winningCoordinate.Y - 10 && card.offsetLeft <= winningCoordinate.Y + 10)  || ( card.offsetLeft >= winningCoordinate.X - 10 && card.offsetLeft<= winningCoordinate.X + 10)){
+    if((card.offsetTop >= winningCoordinate.Y - 2 && card.offsetLeft <= winningCoordinate.Y + 2)  || ( card.offsetLeft >= winningCoordinate.X - 2 && card.offsetLeft<= winningCoordinate.X + 2)){
         won = true
         card.style.top = winningCoordinate.Y + 'px'
         card.style.left = winningCoordinate.X + 'px'
